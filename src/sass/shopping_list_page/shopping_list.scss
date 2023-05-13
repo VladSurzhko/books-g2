@@ -1,4 +1,44 @@
 // Стилі для блоку shopping_list на сторінці shopping_list_page
+.shopping-list-container{
+    max-width: 335px;
+    margin: 0 auto;
+padding-left: 20px;
+padding-right: 20px;    
+}
+@media screen and (min-width: 768px) {
+    .shopping-list-container {
+        max-width: 704px;
+        margin: 0 auto;
+        padding: 0px;
+        padding-left: 40px;
+padding-right: 40px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .shopping-list-container{
+        max-width: 1158px;
+        margin: 0 auto;
+        padding-right: 24px;
+        padding-left: 24px;
+        padding-left: 40px;
+padding-right: 40px;
+        }
+    }
+.shopping-text{
+margin-top: 40px;
+padding-left: 20px;    
+}
+@media screen and (min-width: 768px){
+.shopping-text{
+padding-left: 40px;    
+}
+}
+@media screen and (min-width: 1024px){
+.shopping-text{
+padding-left: 40px;    
+}    
+}
+
 .book_card{
     display: flex;
     padding: 14px;
@@ -72,3 +112,131 @@
 
 }
 
+.shopping_booklist_pagination{
+ margin-top: 40px;  
+ display: flex; 
+ align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.btn{
+    width: 38px;
+    height: 38px;
+    
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+}
+@media screen and (min-width: 768px){
+.btn{
+margin-right: 24px;
+}    
+}
+@media screen and (min-width: 1024px){
+.btn{
+
+    }
+}
+
+.btn:first-child{
+    margin-right: 5px;
+    
+}
+.btn:hover{
+    background-color: #111111;
+    color: #B4AFAF;
+}
+.btn:focus{
+    background-color: #111111;
+    color: #B4AFAF;
+}
+
+.btn-two{
+    width: 38px;
+    height: 38px;
+    background: none;
+    margin-right: 5px;
+    border: 1px solid #000000;
+    border-radius: 100px;
+}
+@media screen and (min-width: 768px){
+    .btn-two{
+        margin-right: 8px;
+    }
+}
+@media screen and (min-width: 1024px){
+.btn-two{
+    margin-right: 8px;
+}    
+}
+
+.btn-two :last-child{
+margin: 0px;
+padding: 0px;
+}
+.btn-two:hover{
+    background-color: #111111;
+    color: #B4AFAF;
+}
+.btn-two:focus{
+    background-color: #111111;
+    color: #B4AFAF;
+}
+
+.none{
+display: none;    
+}
+@media screen and (min-width: 768px){
+.none{
+display: block;    
+}    
+}
+@media screen and (min-width: 1024px){
+.none{
+display: block;    
+}
+}
+.btn-many{
+    width: 38px;
+    height: 38px; 
+    border: 1px solid #000000;
+    border-radius: 100px;   
+}
+
+.btn-many:hover{
+    background-color: #111111;
+    color: #B4AFAF;
+}
+.btn-many:focus{
+    background-color: #111111;
+    color: #B4AFAF;
+}
+
+.btn-three{
+    width: 38px;
+    height: 38px;
+    margin-left: 10px;
+    border: 1px solid #000000;
+    border-radius: 100px;
+}
+@media screen and (min-width: 768px){
+.btn-three{
+margin-left: 24px;    
+}    
+}
+@media screen and (min-width: 768px){
+.btn-three{
+margin-left: 24px;    
+}    
+}
+
+.btn-three:last-child{
+    margin-left: 5px;
+}
+.btn-three:hover{
+    background-color: #EAC645;
+}
+.btn-three:focus{
+    background-color:#EAC645;
+}
