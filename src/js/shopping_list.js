@@ -17,7 +17,7 @@ if (orderedBooksId_str  === null){
     orderedBooksId.forEach(id => { getOrderedBookCard(id);});
 } 
 
-//-----------ОПИС ФУНКЦІЙ ---------------------------------------------------------
+
 
 async function getOrderedBookCard(book_id){
     console.log("book_id=",book_id);
